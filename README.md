@@ -7,3 +7,7 @@ Day 1: Incoming Broadcast from InventrCorp
   
 Day 2: It's really dark in here...
   I learned about circuts and how to turn on and off an LED light on a bread boards with an arduino. 
+
+Day3: I'm worried about your battery levels
+  Today I added a switch to the circut, so the LED light can be turned on and off manually. 
+  
