@@ -13,3 +13,6 @@ Day3: I'm worried about your battery levels
   
 Day 4: Cabin Lighting
   Today I used the switch more by adding more LED lights and I was able to turn on different LEDs with the switch that was placed on the bread board.
+
+Day 5: Creative Day
+  TBD
