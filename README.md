@@ -15,4 +15,7 @@ Day 4: Cabin Lighting<br />
   Today I used the switch more by adding more LED lights and I was able to turn on different LEDs with the switch that was placed on the breadboard.<br />
 
 Day 5: Creative Day<br />
-  Roday I created a simple traffic light with LED lights and the breadboard. It changes the stage of the lights every second.<br />
+  Today I created a simple traffic light with LED lights and the breadboard. It changes the stage of the lights every second.<br />
+
+Day 6: Time to fix the battery<br />
+  Today I learned how to use a monitor sensor and analog pins on the hero board.
