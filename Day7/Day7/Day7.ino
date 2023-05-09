@@ -19,22 +19,28 @@ void PrintBatteryPercentage() {
   Serial.print("ms    charge at ");
 
   // convert the integers to decimal numbers, divide them and print...
-  Percentfull = 100*((double)batteryLevel / (double)batteryCapacity);
+  PercentFull = 100*((double)batteryLevel / (double)batteryCapacity);
   Serial.print(PercentFull);
 
   // print a percent character and line return...
-  Serial.print("%");
+  Serial.println("%");
 }
 
 void loop() {
-  // Pulse the builtin LED for a time determined by the sensor
   sensorValue = analogRead(sensorPin);
-  digitalWrite(onboardLED, HIGH);
-  delay(sensorValue);
-  digitalWrite(onboardLED, LOW);
-  delay(sensorValue);
+  batteryLevel += sensorValue;
+  ticks += wait;
+  
+  if (batteryLevel >= batteryCapacity) {
+    Serial.print(ticks);
+    Serial.print(" ms   ");
+    Serial.println("FULLY CHARGED");
+    batteryLevel = batteryCapacity; // to prevent integer from continuing to increase
+    ticks = 0;
+    delay(200000);  // long pause
+  } else {
+    PrintBatteryPercentage();
+  }
 
-  // Read the analog sensor value and send it to the serial
-  Serial.println(sensorValue);
-  delay(sensorValue);
+  delay(wait);
 }
