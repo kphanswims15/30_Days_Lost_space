@@ -19,3 +19,6 @@ Day 5: Creative Day<br />
 
 Day 6: Time to fix the battery<br />
   Today I learned how to use a monitor sensor and analog pins on the hero board.
+  
+Day 7: We still need to keep an eye on this<br />
+  Today I learned how to take the data from the monitor sensor and use the data collected in my code and display it for the used to see. <br />
