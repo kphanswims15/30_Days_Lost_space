@@ -22,3 +22,6 @@ Day 6: Time to fix the battery<br />
   
 Day 7: We still need to keep an eye on this<br />
   Today I learned how to take the data from the monitor sensor and use the data collected in my code and display it for the used to see. <br />
+  
+Day 8: Adding some color to this dark place<br />
+  Today I learned how to used a RGB LED and I learned about PWM.
